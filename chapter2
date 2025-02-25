@@ -1,0 +1,30 @@
+git init
+Initialized empty Git repository in D:/webdev/Backend/version-control/story/.git/
+
+git add chapter1
+
+git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   chapter1
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)    
+        chapter2
+        chapter3
+
+git commit -m "basic commads"
+[master (root-commit) d5d75c4] basic commads
+ 1 file changed, 18 insertions(+)
+ create mode 100644 chapter1
+
+git log
+commit d5d75c4882aec286e7eaa6d4f994695530e31f49 (HEAD -> master)    
+Author: Rajshree1126 <bhalshankarrajshree@gmail.com>
+Date:   Tue Feb 25 07:10:31 2025 +0530
+
+    basic commads
