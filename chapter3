@@ -1,1 +1,7 @@
 git clone https://github.com/inolen/quakejs.git (clones the repository locally)
+
+git branch branching (creates new branch called branching)
+
+git branch (shows all branches)
+
+git checkout branching(changes branch) 
