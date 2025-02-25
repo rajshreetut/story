@@ -1,30 +1,15 @@
-git init
-Initialized empty Git repository in D:/webdev/Backend/version-control/story/.git/
+git init (adds git)
 
-git add chapter1
+git add chapter1 (adds file to staging area)
 
-git status
-On branch master
+git add . (adds all files to staging area)
 
-No commits yet
+git status (shows added files into staging area)
 
-Changes to be committed:
-  (use "git rm --cached <file>..." to unstage)
-        new file:   chapter1
+git commit -m "basic commads" (commits version)
 
-Untracked files:
-  (use "git add <file>..." to include in what will be committed)    
-        chapter2
-        chapter3
+git log (shows all the commits)
 
-git commit -m "basic commads"
-[master (root-commit) d5d75c4] basic commads
- 1 file changed, 18 insertions(+)
- create mode 100644 chapter1
+git diff (shows the difference in versions)
 
-git log
-commit d5d75c4882aec286e7eaa6d4f994695530e31f49 (HEAD -> master)    
-Author: Rajshree1126 <bhalshankarrajshree@gmail.com>
-Date:   Tue Feb 25 07:10:31 2025 +0530
-
-    basic commads
+git checkout chapter2 (goes to the previous version)
