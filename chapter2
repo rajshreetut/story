@@ -13,3 +13,8 @@ git log (shows all the commits)
 git diff (shows the difference in versions)
 
 git checkout chapter2 (goes to the previous version)
+
+touch .gitignore (to enable gitignore)
+
+git rm --cached -r . (remove all the files from local repository)
+
