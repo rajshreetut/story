@@ -1,0 +1,18 @@
+HP@LAPTOP-VCUCSL14 MINGW64 /d/webdev/Backend/version-control
+$ mkdir story
+
+HP@LAPTOP-VCUCSL14 MINGW64 /d/webdev/Backend/version-control
+$ touch chapter1 chapter2 chapter3
+
+HP@LAPTOP-VCUCSL14 MINGW64 /d/webdev/Backend/version-control
+$ cd story/
+
+HP@LAPTOP-VCUCSL14 MINGW64 /d/webdev/Backend/version-control/story
+$ touch chapter1 chapter2 chapter3
+
+HP@LAPTOP-VCUCSL14 MINGW64 /d/webdev/Backend/version-control/story
+$ code chapter1
+
+HP@LAPTOP-VCUCSL14 MINGW64 /d/webdev/Backend/version-control/story
+$ ls
+chapter1  chapter2  chapter3
